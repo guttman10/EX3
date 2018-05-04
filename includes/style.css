@@ -71,9 +71,61 @@ aside {
 	background-color:#000000;
 	opacity:0.6;
 }
-
 .lay1_foot{
 	height:121px;
 	background-color:#d6d6d6;
 	clear: both;
+}
+
+.logo_lay2{
+	margin-left: auto;
+	margin-right: auto;
+	margin-top:36px;
+	margin-bottom: 85px;
+}
+#nav_lay2{
+		float:left;
+		height:758px;	
+		background-color:#333333;
+	}
+#nav_lay2 ul{
+	list-style-type: none;
+}
+.nav_link_style2 {
+	color: #ffffff;
+	text-decoration:none;
+	width:243px;
+	padding-left: 10px;
+	height:58px;
+	line-height:58px;
+	display:block;
+}
+.active2{
+	background-color: #b94a48;
+}
+.red_zone{
+	width:740;
+	height:758px;	
+	position: relative;
+	background-color: #ee5f5b;
+	overflow: hidden;
+}
+.l2box_style{
+	background-color:#000000;
+	opacity:0.6;
+	position: relative;
+	width: 206px;
+}
+.box1_l2{
+	height: 369px;
+	margin-left: 30px;
+}
+.box2_l2{
+	height: 369px;
+	margin-left: 30px;
+	margin-top: 20px;
+}
+.box3_l2{
+	float: left;
+	height:500px;
 }
