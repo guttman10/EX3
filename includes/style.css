@@ -115,17 +115,41 @@ aside {
 	opacity:0.6;
 	position: relative;
 	width: 206px;
+	margin-left: 30px;
 }
 .box1_l2{
 	height: 369px;
-	margin-left: 30px;
+	float: left;
 }
 .box2_l2{
-	height: 369px;
-	margin-left: 30px;
-	margin-top: 20px;
+	height: 500px;
+	float: left;
 }
 .box3_l2{
 	float: left;
-	height:500px;
+	height:223px;
+}
+.box4_l2{
+	float: left;
+	position: absolute;
+	overflow: hidden;
+	top:369px;
+	margin-top: 20px;
+	height: 500px;
+}
+.box5_l2{
+	float: left;
+	position: absolute;
+	overflow: hidden;
+	top: 500px;
+	right:267px;
+	margin-top: 20px;
+	height: 306px;
+}
+.lay2_foot{
+	position:fixed;
+	height:50px;
+	width:1000px;
+   	bottom:0px;
+	background-color:#d6d6d6;
 }
