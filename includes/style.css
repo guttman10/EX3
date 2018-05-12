@@ -36,9 +36,6 @@ header, main, footer, body, section, nav, aside {display:block;}
 	background-color:#b94a48;
 }
 
-.active{
-	background-color: #333333;
-}
 aside {
 	float:left;
 	background-color:#f2dede;
@@ -152,4 +149,76 @@ aside {
 	width:993px;
    	bottom:0px;
 	background-color:#d6d6d6;
+}
+
+.logo_lay3{
+	margin-left: 25px;
+	margin-top:50px;
+}
+.plus{
+position: relative;
+height: 84px;
+width: 84px;
+top: 116;
+left: 200;
+}
+#nav_lay3 ul{
+	list-style-type: none;
+	position: absolute;
+	bottom: 0;
+}
+#nav_lay3 li{
+	float: left;
+}
+.nav_link_style3 {
+	color: #ffffff;
+	text-align:center;
+	text-decoration:none;
+	width:166px;
+	height:60px;
+	line-height:58px;
+	display:block;
+	background-color:#ee5f5b;
+}
+.active{
+	background-color: #333333;
+}
+.container{
+	position: relative;
+	width: 498px;
+	height: 500px;
+	float: left;
+}
+.boxZone{
+	background-color:#B22222;
+	flex-basis: 249px;
+}
+.box_style_l3{
+	width: 249px;
+	height: 250px;
+	float: left;
+	background-color: #000000;
+}
+
+.box1_l3{
+	opacity: 0.2;
+}
+.box2_l3{
+	opacity: 0.4;
+}
+.box3_l3{
+	opacity: 0.5;
+}
+.box4_l3{
+	opacity: 0.8;
+}
+.container_large{
+	clear: both;
+	position: relative;
+	width: 996px;
+	height: 500px;
+}
+.box_style_l3:hover{
+	background-color: #ffffff;
+	opacity: 1;
 }
