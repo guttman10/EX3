@@ -157,10 +157,10 @@ aside {
 }
 .plus{
 position: relative;
+top: 116px;
+left: 200px;
 height: 84px;
 width: 84px;
-top: 116;
-left: 200;
 }
 #nav_lay3 ul{
 	list-style-type: none;
@@ -187,8 +187,8 @@ left: 200;
 	position: relative;
 	width: 498px;
 	height: 500px;
-	float: left;
 }
+
 .boxZone{
 	background-color:#B22222;
 	flex-basis: 249px;
@@ -215,6 +215,16 @@ left: 200;
 .container_large{
 	clear: both;
 	position: relative;
-	width: 996px;
-	height: 500px;
+	width: 498px;
+	height: 1000px;
+}
+@media only screen and (min-width:800px) {
+    .container {
+        float: left;
+	}
+	.container_large{
+		width:996px;
+		height: 500px;
+	}
+
 }
